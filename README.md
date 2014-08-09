@@ -12,4 +12,4 @@ There are two files needed:
 
 1) "CheesyEagleVision.py" runs on the DS to read driver "Hand" commands.
 
-2) "CheesyEagle Receiver.vi" runs on the cRio and requests the most recent status from the DS when needed.
+2) "CheesyEagle Receiver.vi" runs on the cRio and requests the most recent status from the DS when needed. REMEMBER to set the IP address in this vi to the IP of your DS, this will allow it to make a request to the DS FOR THE CURRENT "Hand" position value.
